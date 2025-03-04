@@ -9,10 +9,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0027-remove-element) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
+| [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 ## Array
 |  |
@@ -26,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 ## Math
 |  |
 | ------- |
