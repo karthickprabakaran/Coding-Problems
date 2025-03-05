@@ -6,7 +6,7 @@ class Solution {
                     return new int[] {i, j};
                 }
             }
-        }   
-        throw new IllegalArgumentException("No two sum solution");
+        }
+        return new int[] {};
     }
 }
