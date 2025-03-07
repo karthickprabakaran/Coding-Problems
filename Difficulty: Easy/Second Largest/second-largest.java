@@ -29,21 +29,22 @@ public class Main {
 class Solution {
     public int getSecondLargest(int[] arr) {
         // Code Here
-         int first = Integer.MIN_VALUE;
-        int second = Integer.MIN_VALUE;
-
-        for (int num : arr) {
-            if (num > first) {
-                second = first;
-                first = num;
-            } else if (num > second && num < first) {
-                second = num;
+        int largest=arr[0];
+        int secondLargest=-1;
+        
+        
+        for(int i:arr){
+            if(i>largest){
+                secondLargest=largest;
+                largest=i;
+            }
+            else{
+                if(i>secondLargest && i!=largest){
+                    secondLargest=i;
+                }
             }
         }
+        return secondLargest;
         
-        return second == Integer.MIN_VALUE ? -1 : second;
     }
-        
-
-    
 }
