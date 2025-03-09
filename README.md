@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0027-remove-element) |
 | [0125-valid-palindrome](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 ## String
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [2350-find-closest-number-to-zero](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2350-find-closest-number-to-zero) |
 ## Dynamic Programming
 |  |
