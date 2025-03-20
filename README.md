@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [2350-find-closest-number-to-zero](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2350-find-closest-number-to-zero) |
 ## Dynamic Programming
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -51,11 +53,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Stack
 |  |
 | ------- |
@@ -64,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -72,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
