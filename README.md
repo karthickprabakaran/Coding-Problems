@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 ## Sorting
