@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
+| [2470-removing-stars-from-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2470-removing-stars-from-a-string) |
 ## Array
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0020-valid-parentheses) |
+| [2470-removing-stars-from-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2470-removing-stars-from-a-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -116,4 +118,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2470-removing-stars-from-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2470-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
