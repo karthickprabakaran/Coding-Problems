@@ -1,18 +1,21 @@
 class Solution {
-    public int[] twoSum(int[] arr, int target) {
+    public int[] twoSum(int[] nums, int target) {
+        // Create a hashmap to store number and its index
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        int n = arr.length;
-        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
 
-        for(int i =0;i<n;i++)
-        {
-            int req = target - arr[i];
-            if(hm.containsKey(req))
-            {
-                return new int[] {hm.get(req), i};
+            // Check if complement exists in the map
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
             }
-            hm.put(arr[i],i);
+
+            // Otherwise, add the number and its index to the map
+            map.put(nums[i], i);
         }
-        return new int[] {};    
+
+        // Return empty array if no solution found
+        return new int[] {};
     }
 }
