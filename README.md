@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0031-next-permutation) |
+| [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0136-single-number) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0141-linked-list-cycle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
@@ -119,4 +121,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2470-removing-stars-from-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2470-removing-stars-from-a-string) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
