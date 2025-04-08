@@ -1,10 +1,11 @@
 class Solution {
     public int repeatedNTimes(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j]) {
-                    return nums[i];
-                }
+        Set<Integer> seen = new HashSet<>();
+        for(int i=0;i<nums.length;i++)
+        {
+            if(!seen.add(nums[i]))
+            {
+                return nums[i];
             }
         }
         return -1; // Just in case, but problem guarantees a result
