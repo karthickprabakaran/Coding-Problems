@@ -11,22 +11,22 @@ class Solution {
 
         // Step 3: Merge the two halves
         while (head != null && secondHead != null) {
-            ListNode temp1 = head.next;
-            ListNode temp2 = secondHead.next;
-
+            ListNode temp = head.next;
             head.next = secondHead;
-            secondHead.next = temp1;
+            head = temp;
 
-            head = temp1;
-            secondHead = temp2;
+            temp = secondHead.next;
+            secondHead.next = head;
+            secondHead = temp;
         }
+        if(head != null) head=null;
     }
 
     private ListNode getMid(ListNode head) {
         ListNode slow = head;
-        ListNode fast = head;
+        ListNode fast = head.next;
 
-        while (fast != null && fast.next != null && fast.next.next != null) {
+        while (fast != null && fast.next != null ) {
             slow = slow.next;
             fast = fast.next.next;
         }
