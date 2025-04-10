@@ -1,31 +1,37 @@
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if (head == null || left == right) return head;
+        if (left == right) return head;
 
-        ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        ListNode leftPrev = dummy;
+        ListNode prev = null;
+        ListNode current = head;
 
-        // Move leftPrev to the node just before `left`
-        for (int i = 1; i < left; i++) {
-            leftPrev = leftPrev.next;
+        // Move `current` to the `left` position, and track `prev`
+        for (int i = 0; current != null && i < left - 1; i++) {
+            prev = current;
+            current = current.next;
         }
 
-        ListNode current = leftPrev.next;
-        ListNode prev = null;
+        ListNode last = prev;
+        ListNode newEnd = current;
+        ListNode next = null;
 
         // Reverse the sublist from left to right
-        for (int i = 0; i <= right - left; i++) {
-            ListNode nextTemp = current.next;
+        for (int i = 0; current != null && i < right - left + 1; i++) {
+            next = current.next;
             current.next = prev;
             prev = current;
-            current = nextTemp;
+            current = next;
         }
 
-        // Connect the reversed sublist back
-        leftPrev.next.next = current; // original start of sublist is now the tail
-        leftPrev.next = prev; // prev is the new head of reversed sublist
+        // Reconnect with the rest of the list
+        if (last != null) {
+            last.next = prev;
+        } else {
+            head = prev; // when reversing from the first node
+        }
 
-        return dummy.next;
+        newEnd.next = current;
+
+        return head;
     }
 }
