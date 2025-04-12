@@ -50,7 +50,6 @@ class Solution {
             }
             else if(arr[mid] == 1)
             {
-            
                 mid++;
             }
             else{
