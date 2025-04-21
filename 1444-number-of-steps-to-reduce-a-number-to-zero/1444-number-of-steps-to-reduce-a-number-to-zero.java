@@ -1,18 +1,17 @@
 class Solution {
     public int numberOfSteps(int num) {
-        return helper(num, 0);
+        
+        return count(num,0);
     }
 
-    private int helper(int num , int steps)
+    private static int count(int n, int cnt)
     {
-        if(num == 0)
-        {
-            return steps;
+        if(n<1) return cnt;
+
+        if(n%2 == 0){
+            return count(n/2, cnt+1);
         }
-        if(num %2 ==0)
-        {
-            return helper(num/2 , steps+1);
-        }
-        return helper(num -1, steps+1);
+
+        return count(n-1,cnt+1);
     }
 }
