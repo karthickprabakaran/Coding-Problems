@@ -8,45 +8,35 @@
  *         next = null;
  *     }
  * }
+ 
  */
-public class Solution {
+ public class Solution {
     public ListNode detectCycle(ListNode head) {
-        ListNode fast = head;
-        ListNode slow = head;
-        int length = 0;
 
-        while ( fast != null && fast.next != null)
-        {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        if (head == null || head.next == null) return null; // No cycle possible if there's 0 or 1 node
+
+        // Step 1: Detect the cycle using Floyd's Tortoise and Hare algorithm
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if(fast == slow)
-            {
-                ListNode temp = slow;
-                do{
-                    length++;
+
+            // If fast and slow meet, we have found a cycle
+            if (fast == slow) {
+                // Step 2: Find the cycle's starting point
+                // To find the cycle start, reset one pointer to head
+                ListNode temp = head;
+                while (temp != slow) {
                     temp = temp.next;
-                }while(temp != slow);
-                break;
+                    slow = slow.next;
+                }
+                return temp; // When they meet, temp is at the start of the cycle
             }
         }
 
-        if(length == 0) return null;
-
-        ListNode f = head;
-        ListNode s = head;
-
-        while(length > 0)
-        {
-            s = s.next;
-            length--;
-        }
-
-        while(f != s)
-        {
-            f = f.next;
-            s = s.next;
-        }
-
-        return s;
+        // No cycle found
+        return null;
     }
 }
