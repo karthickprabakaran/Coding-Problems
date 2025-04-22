@@ -76,27 +76,36 @@ class Node
 class Solution {
     // Function to find the length of a loop in the linked list.
     public int countNodesinLoop(Node head) {
-        // Add your code here.
+        // Edge case: If the list is empty or has only one node.
+        if (head == null || head.next == null) {
+            return 0;
+        }
+
         Node slow = head;
         Node fast = head;
         
-        while(fast != null && fast.next != null)
-        {
+        // Detect cycle using Floyd's Tortoise and Hare algorithm.
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
             
-            if(fast == slow)
-            {
-                int cnt = 1;
+            // Cycle is detected when slow and fast meet.
+            if (fast == slow) {
+                // Now count the length of the cycle.
                 Node temp = slow;
-                while(temp.next != slow)
-                {
-                    cnt++;
+                int length = 1; // Start at 1 because the first node (slow) is already part of the cycle.
+                
+                // Traverse the cycle to count the length.
+                while (temp.next != slow) {
+                    length++;
                     temp = temp.next;
                 }
-                return cnt;
+                
+                return length; // Return the length of the cycle.
             }
         }
+        
+        // If no cycle is detected, return 0.
         return 0;
     }
 }
