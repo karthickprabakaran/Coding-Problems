@@ -11,52 +11,53 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
 
-        ListNode mid = getmid(head);
-        ListNode secondhead = reverse(mid);
-        ListNode reverseHead = secondhead;
+        ListNode left = head;
 
-        while(head != null && secondhead != null)
+        ListNode mid = getMid(head);
+
+        ListNode right = reverse(mid);
+        mid.next = null;
+
+        while(left != null && right != null)
         {
-            if(head.val != secondhead.val ) break;
-            head = head.next;
-            secondhead = secondhead.next;
+            if(left.val != right.val) return false;
+            left = left.next;
+            right = right.next;
         }
 
-        if(secondhead == null) return true;
+        reverse(right);
 
-        reverse(reverseHead);
-
-        return false;
-
+        return true;
+        
     }
 
-        private ListNode reverse(ListNode head)
+    private static ListNode getMid(ListNode head)
+    {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while(fast != null && fast.next != null)
         {
-            ListNode prev = null;
-            ListNode current = head;
-
-            while(current != null)
-            {
-                ListNode next = current.next;
-                current.next = prev;
-                prev = current;
-                current = next;
-            }
-
-            return prev;
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        private ListNode getmid(ListNode head)
+        return slow;
+    }
+
+    private static ListNode reverse(ListNode head)
+    {
+        ListNode prev = null;
+        ListNode current = head;
+
+        while(current != null)
         {
-            ListNode slow = head;
-            ListNode fast = head;
-
-            while(fast != null && fast.next != null)
-            {
-                slow = slow.next;
-                fast = fast.next.next;
-            }
-
-            return slow;
+            ListNode next = current.next;
+            current.next  = prev;
+            prev = current;
+            current = next;
         }
+
+        return prev;
+    }
 }
