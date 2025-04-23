@@ -11,21 +11,19 @@
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
 
-        if(left == right) return head;
-
         ListNode prev = null;
         ListNode current = head;
 
-        for(int i=0;current != null && i <left -1;i++)
+        for(int i=1;i<left;i++)
         {
             prev = current;
             current = current.next;
         }
 
-        ListNode last = prev;
+        ListNode last  = prev;
         ListNode newEnd = current;
 
-        for(int i=0;current != null&& i<right - left +1;i++)
+        for(int i=0;i<right-left +1;i++)
         {
             ListNode next = current.next;
             current.next = prev;
@@ -33,13 +31,11 @@ class Solution {
             current = next;
         }
 
-
-        if(last != null)
+        if(last == null)
         {
-            last.next = prev;
-
-        }else{
             head = prev;
+        }else{
+            last.next = prev;
         }
 
         newEnd.next = current;
