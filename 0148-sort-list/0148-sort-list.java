@@ -11,60 +11,67 @@
 class Solution {
     public ListNode sortList(ListNode head) {
 
-        if(head == null || head.next == null)
-        {
-            return head;
-        }
+        if(head == null || head.next == null) return head;
 
         ListNode mid = getMid(head);
-
         ListNode right = mid.next;
         mid.next = null;
 
         ListNode left = sortList(head);
         right = sortList(right);
 
-        return merge(left, right);        
-        
+        return merge(left,right);
     }
 
-    private ListNode merge(ListNode first, ListNode second)
-    {
-        ListNode dummy = new ListNode(-1);
-        ListNode temp = dummy;
 
-        while(first != null && second !=null)
-        {
-            if(first.val < second.val)
-            {
-                temp.next = first;
-                first = first.next;
-            }else{
-                temp.next = second;
-                second = second.next;
-            }
-            temp = temp.next;
-        }
-
-        if(first != null)
-        {
-            temp.next = first;
-        }else{
-            temp.next = second;
-        }
-
-        return dummy.next;
-    }
-    
-    private ListNode getMid(ListNode head)
-    {
+     private static ListNode getMid(ListNode head){
         ListNode slow = head;
-        ListNode fast = head.next;
-        while(fast != null && fast.next != null)
+        ListNode fast = head;
+
+        // Corrected loop to ensure proper mid detection
+        while(fast.next != null && fast.next.next != null)
         {
             slow = slow.next;
             fast = fast.next.next;
         }
+
         return slow;
     }
+
+    private static ListNode merge(ListNode left, ListNode right)
+    {
+        ListNode dummy = new ListNode(-1);
+        ListNode temp = dummy;
+
+        while(left != null && right != null)
+        {
+            if(left.val < right.val)
+            {
+                temp.next = left;
+                temp = temp.next;
+                left = left.next;
+            }else{
+                temp.next = right;
+                temp = temp.next;
+                right = right.next;
+            }
+        }
+
+        while(left != null)
+        {
+            temp.next = left;
+            left = left.next;
+            temp = temp.next;
+        }
+
+        while(right != null)
+        {
+            temp.next = right;
+            right = right.next;
+            temp = temp.next;
+        }
+
+        return dummy.next;
+    }
+
 }
