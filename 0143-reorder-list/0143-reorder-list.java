@@ -14,7 +14,6 @@ class Solution {
         ListNode mid = getMid(head);
 
         ListNode secondHead = reverse(mid.next);
-
         mid.next = null;
 
         while(head != null && secondHead != null)
@@ -23,6 +22,8 @@ class Solution {
             head.next = secondHead;
             head = temp;
 
+
+
             ListNode temp1 = secondHead.next;
             secondHead.next = head;
             secondHead = temp1;
@@ -30,20 +31,19 @@ class Solution {
         
     }
 
-    private static ListNode getMid(ListNode head)
+    private static ListNode  getMid(ListNode head)
     {
-        ListNode slow = head;
         ListNode fast = head;
+        ListNode slow = head;
 
         while(fast!= null && fast.next != null)
         {
             slow = slow.next;
-            fast = fast.next.next;
+            fast  = fast.next.next;
         }
 
         return slow;
     }
-
 
     private static ListNode reverse(ListNode head)
     {
