@@ -8,65 +8,50 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
- 
 class Solution {
-
     public ListNode rotateRight(ListNode head, int k) {
 
         //edge case
 
-        if(head == null || head.next == null || k < 1)
+        if(head == null || head.next == null || k <1 )
         {
             return head;
         }
 
-        //count the length of the linked list
+        //find the length of the linked list
 
         ListNode temp = head;
-        int length = 0;
-        while(temp != null)
+        int length = 1;
+        while(temp.next != null)
         {
             length++;
             temp = temp.next;
         }
 
-        //reduce the k
+        //reduce the k and handle the edge case
+
         k = k%length;
 
-        if (k==0) return head;
+        if(k == 0) return head;
 
-        //move inside 
-        ListNode current = head;
-        for(int i=0;i<length -k -1;i++)
+        //move to the length before the linked list
+
+        ListNode tem = head;
+
+        for(int i=0;i< length - k -1; i++)
         {
-            current = current.next;
+            tem = tem.next;
         }
 
-        //get the new head
-        ListNode newHead = current.next;
-        //disconnect the tail
-        current.next = null;
+        ListNode newHead = tem.next;
 
-        
+        tem.next = null;
 
-    //get the the last of the new Head
-    ListNode last = newHead;
-    while(last.next !=null)
-    {
-        last = last.next;
-    }
+        //find the last and connect to the head
 
-    //point that to the actual head
+        temp.next = head;
 
-    last.next = head;
-
-    return newHead;
-
-
-
-
-
+        return newHead;
 
 
 
