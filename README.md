@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0485-max-consecutive-ones) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 ## Sorting
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
 ## Stack
 |  |
@@ -121,10 +124,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -185,4 +190,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0238-product-of-array-except-self) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
