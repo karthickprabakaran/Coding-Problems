@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
+| [0118-pascals-triangle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
+| [0118-pascals-triangle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 ## Math
