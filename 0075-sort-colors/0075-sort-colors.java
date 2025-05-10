@@ -15,15 +15,14 @@ class Solution {
             }
         }
 
-        int i = 0;
 
-        for(; i < zero; i++){
+        for(int i = 0; i < zero; i++){
             nums[i] = 0;
         }
-        for(; i < zero + one; i++){
+        for(int i=zero; i < zero + one; i++){
             nums[i] = 1;
         }
-        for(; i < zero + one + two; i++){
+        for(int i = zero+one; i < zero + one + two; i++){
             nums[i] = 2;
         }
         
