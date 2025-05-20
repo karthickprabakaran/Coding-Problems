@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0118-pascals-triangle) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0142-linked-list-cycle-ii) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 ## Merge Sort
 |  |
 | ------- |
