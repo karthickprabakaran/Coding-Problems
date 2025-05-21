@@ -1,43 +1,30 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public boolean isPalindrome(ListNode head) {
+        if (head == null || head.next == null) return true;
 
-        ListNode left = head;
-
+        // Step 1: Find the middle
         ListNode mid = getMid(head);
 
-        ListNode right = reverse(mid);
-        mid.next = null;
+        // Step 2: Reverse the second half
+        ListNode secondHalfStart = reverse(mid.next);
 
-        while(left != null && right != null)
-        {
-            if(left.val != right.val) return false;
-            left = left.next;
-            right = right.next;
+        // Step 3: Compare both halves
+        ListNode firstHalf = head;
+        ListNode secondHalf = secondHalfStart;
+        while (secondHalf != null) {
+            if (firstHalf.val != secondHalf.val) return false;
+            firstHalf = firstHalf.next;
+            secondHalf = secondHalf.next;
         }
 
-        reverse(right);
-
         return true;
-        
     }
 
-    private static ListNode getMid(ListNode head)
-    {
+    private ListNode getMid(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(fast != null && fast.next != null)
-        {
+        while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
@@ -45,19 +32,15 @@ class Solution {
         return slow;
     }
 
-    private static ListNode reverse(ListNode head)
-    {
+    private ListNode reverse(ListNode head) {
         ListNode prev = null;
-        ListNode current = head;
-
-        while(current != null)
-        {
-            ListNode next = current.next;
-            current.next  = prev;
-            prev = current;
-            current = next;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextNode = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextNode;
         }
-
         return prev;
     }
 }
