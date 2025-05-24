@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2350-find-closest-number-to-zero) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 ## Sorting
 |  |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 ## Union Find
 |  |
 | ------- |
