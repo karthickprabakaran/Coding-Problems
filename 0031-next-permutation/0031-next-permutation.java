@@ -10,13 +10,11 @@ class Solution {
                 break;
             }
         }
-
         if (index == -1) {
             // If no such index is found, the array is in descending order, reverse it
             reverse(nums, 0, n - 1);
             return;
         }
-
         // Step 2: Find the smallest element in the right that is greater than nums[index]
         for (int i = n - 1; i > index; i--) {
             if (nums[i] > nums[index]) {
@@ -25,17 +23,14 @@ class Solution {
                 break;
             }
         }
-
         // Step 3: Reverse the elements to the right of index
         reverse(nums, index + 1, n - 1);
     }
-
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
-
     private void reverse(int[] nums, int start, int end) {
         while (start < end) {
             swap(nums, start, end);
