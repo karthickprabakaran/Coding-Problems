@@ -1,0 +1,20 @@
+// Last updated: 6/10/2025, 10:11:06 PM
+class Solution {
+    public int reverse(int x) {
+        int rev = 0;
+        
+        while (x != 0) {
+            int lastDigit = x % 10;
+            
+            // Check for overflow before updating rev
+            if (rev > Integer.MAX_VALUE / 10 || rev < Integer.MIN_VALUE / 10) {
+                return 0; // Return 0 if overflow occurs
+            }
+            
+            rev = (rev * 10) + lastDigit;
+            x = x / 10;
+        }
+
+        return rev;
+    }
+}
