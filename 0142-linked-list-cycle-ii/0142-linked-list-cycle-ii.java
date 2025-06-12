@@ -8,33 +8,27 @@
  *         next = null;
  *     }
  * }
- */public class Solution {
+ */
+public class Solution {
     public ListNode detectCycle(ListNode head) {
 
-        if(head == null || head.next == null) return null;
-
         ListNode slow = head;
-        ListNode fast = head;
+        ListNode fast  = head;
 
-        // Step 1: Detect if a cycle exists
-        while(fast != null && fast.next != null)
-        { 
-            slow = slow.next;
+        while(fast != null && fast.next != null){
             fast = fast.next.next;
+            slow = slow.next;
 
-            if(slow == fast)
-            {
-                // Step 2: Find the start of the cycle
-                ListNode temp = head;
-                while(temp != slow)
-                {
-                    temp = temp.next;
+            if(fast == slow){
+                ListNode temp = slow;
+                slow = head;
+                while(slow != temp){
                     slow = slow.next;
+                    temp = temp.next;
                 }
                 return temp;
             }
         }
-
-        return null; // No cycle found
+        return null;
     }
 }
