@@ -1,42 +1,37 @@
 import java.util.Stack;
 
 class MyQueue {
-
-    Stack<Integer> firstStack;   // Stack to handle push operations
-    Stack<Integer> secondStack;  // Stack to reverse order for pop/peek
+    private Stack<Integer> inputStack;
+    private Stack<Integer> outputStack;
 
     public MyQueue() {
-        firstStack  = new Stack<>();
-        secondStack  = new Stack<>();
+        inputStack = new Stack<>();
+        outputStack = new Stack<>();
     }
     
+    // Push element to the end of the queue
     public void push(int x) {
-        // Always push to firstStack
-        firstStack.push(x);
+        inputStack.push(x);
     }
     
+    // Removes and returns the element from the front of the queue
     public int pop() {
-        // Move elements from firstStack to secondStack only if secondStack is empty
-        if (secondStack.isEmpty()) {
-            while (!firstStack.isEmpty()) {
-                secondStack.push(firstStack.pop()); // Reverse order
-            }
-        }
-        return secondStack.pop(); // Pop from secondStack (queue front)
+        peek(); // Ensure outputStack has the current elements
+        return outputStack.pop();
     }
     
+    // Get the front element
     public int peek() {
-        // Move elements only if secondStack is empty
-        if (secondStack.isEmpty()) {
-            while (!firstStack.isEmpty()) {
-                secondStack.push(firstStack.pop());
+        if (outputStack.isEmpty()) {
+            while (!inputStack.isEmpty()) {
+                outputStack.push(inputStack.pop());
             }
         }
-        return secondStack.peek(); // Peek the front element
+        return outputStack.peek();
     }
     
+    // Return whether the queue is empty
     public boolean empty() {
-        // Queue is empty only if both stacks are empty
-        return firstStack.isEmpty() && secondStack.isEmpty();
+        return inputStack.isEmpty() && outputStack.isEmpty();
     }
 }
