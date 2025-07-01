@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0054-spiral-matrix) |
+| [0066-plus-one](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0088-merge-sorted-array) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0029-divide-two-integers) |
+| [0066-plus-one](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0202-happy-number) |
