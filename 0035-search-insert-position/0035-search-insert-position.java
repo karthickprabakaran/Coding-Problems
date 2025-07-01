@@ -1,20 +1,22 @@
 class Solution {
-    public int searchInsert(int[] arr, int target) {
+    public int searchInsert(int[] nums, int target) {
 
-        int n = arr.length;
-        int low = 0, high = n - 1;
-        int ans = n;  // Initialize to n (length) in case target is greater than all elements
+        int start = 0;
+        int end = nums.length -1;
 
-        while (low <= high) {
-            int mid = (low + high) / 2;
+        while(start <= end){
+            int mid = start + (end - start) /2;
 
-            if (arr[mid] >= target) {
-                ans = mid;
-                high = mid - 1;  // Move left
-            } else {
-                low = mid + 1;  // Move right
+            if(nums[mid] < target){
+                start = mid+1;
+            }else if (nums[mid] > target){
+                end = mid-1;
+            }else{
+                return mid;
             }
         }
-        return ans;
+
+        return start;
+        
     }
 }
