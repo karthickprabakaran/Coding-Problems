@@ -7,7 +7,6 @@ class Solution {
         Arrays.sort(s1);
         Arrays.sort(s2);
 
-        return Arrays.equals(s1,s2);
-        
+        return Arrays.equals(s1,s2);        
     }
 }
