@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [0908-middle-of-the-linked-list](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2350-find-closest-number-to-zero) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
+| [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
 ## Stack
 |  |
 | ------- |
