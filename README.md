@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [0908-middle-of-the-linked-list](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
+| [1028-interval-list-intersections](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1028-interval-list-intersections) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
+| [1028-interval-list-intersections](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1028-interval-list-intersections) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2350-find-closest-number-to-zero) |
@@ -314,4 +316,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0070-climbing-stairs) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
