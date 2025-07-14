@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 | [0485-max-consecutive-ones](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 ## Math
 |  |
 | ------- |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
+| [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 | [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
 ## Stack
 |  |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Prefix Sum
 |  |
