@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
+| [0875-longest-mountain-in-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1028-interval-list-intersections) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 | [0485-max-consecutive-ones](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0875-longest-mountain-in-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0875-longest-mountain-in-array) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1019-squares-of-a-sorted-array) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
+| [0875-longest-mountain-in-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0875-longest-mountain-in-array) |
 ## Math
 |  |
 | ------- |
@@ -329,4 +332,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1028-interval-list-intersections) |
+## Enumeration
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0875-longest-mountain-in-array) |
 <!---LeetCode Topics End-->
