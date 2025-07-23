@@ -3,31 +3,27 @@ class Solution {
 
         int n = cardPoints.length;
 
+        int windowSize = n - k;
+
         int total = 0;
 
-        for(int i=0;i<n;i++){
-            total += cardPoints[i];
+        for(int i : cardPoints){
+            total += i;
         }
-
-        int windowSize = n-k;
-
         int windowSum = 0;
 
         for(int i=0;i<windowSize;i++){
             windowSum += cardPoints[i];
         }
-
         int minWindow = windowSum;
 
-        for(int i = windowSize;i<n;i++){
+        for(int i=windowSize;i<n;i++){
             windowSum += cardPoints[i];
-            windowSum  -= cardPoints[i - windowSize];
-            minWindow = Math.min(windowSum, minWindow);
+            windowSum -= cardPoints[i - windowSize];
+            minWindow = Math.min(minWindow, windowSum);
         }
 
-
-
-    return total - minWindow;
+        return total - minWindow;
         
     }
 }
