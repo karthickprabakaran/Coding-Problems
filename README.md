@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0324-wiggle-sort-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0232-implement-queue-using-stacks) |
+| [0303-range-sum-query-immutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0303-range-sum-query-immutable) |
 ## Queue
 |  |
 | ------- |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
