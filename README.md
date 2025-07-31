@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0324-wiggle-sort-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0324-wiggle-sort-ii) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0324-wiggle-sort-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0324-wiggle-sort-ii) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0713-subarray-product-less-than-k) |
 ## Linked List
 |  |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0148-sort-list](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0148-sort-list) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 ## Design
 |  |
 | ------- |
@@ -364,13 +368,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 ## Ordered Set
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 <!---LeetCode Topics End-->
