@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1894-merge-strings-alternately](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/2470-removing-stars-from-a-string) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0389-find-the-difference](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0389-find-the-difference) |
 | [0424-longest-repeating-character-replacement](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
