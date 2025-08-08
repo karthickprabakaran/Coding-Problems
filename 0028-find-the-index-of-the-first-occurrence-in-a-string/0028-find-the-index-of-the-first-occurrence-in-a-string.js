@@ -4,7 +4,13 @@
  * @return {number}
  */
 var strStr = function(haystack, needle) {
-    if(haystack.includes(needle)) return haystack.indexOf(needle);
+    
+    for(let i=0;i< haystack.length;i++){
+        if(haystack.charAt(i) === needle.charAt(0)){
+            if(haystack.substring(i, i + needle.length) === needle) return i;
+        }
+    }
+
     return -1;
     
 };
