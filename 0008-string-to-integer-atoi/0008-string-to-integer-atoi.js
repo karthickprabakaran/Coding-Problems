@@ -18,7 +18,7 @@ var myAtoi = function(s) {
     }
 
     while(i < s.length && s[i] >= '0' && s[i] <= '9'){
-        let digit = s[i].charCodeAt(0)  - '0'.charCodeAt(0);
+        let digit = parseInt(s[i]);
 
         ans = ans* 10 + digit;
 
