@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0713-subarray-product-less-than-k) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0875-longest-mountain-in-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0875-longest-mountain-in-array) |
 | [0940-fruit-into-baskets](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0940-fruit-into-baskets) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/1001-n-repeated-element-in-size-2n-array) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0327-count-of-range-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0327-count-of-range-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0713-subarray-product-less-than-k) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
 ## Linked List
 |  |
 | ------- |
