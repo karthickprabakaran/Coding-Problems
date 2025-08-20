@@ -1,11 +1,16 @@
 var twoSum = function(nums, target) {
   let n = nums.length;
-  for (let i = 0; i < n; i++) {
-    for (let j = i+1; j < n; j++) {
-      if (nums[i] + nums[j] == target) return new Array(i, j);
-    }
-  }
 
-  return new Array(-1, -1);
+  let map = new Map();
+
+  for (let i = 0; i < n; i++) {
+    let diff = target - nums[i];
+
+    if (map.has(diff)) return [map.get(diff),i];
+
+    map.set(nums[i], i);
+
+  }
+  return [-1, -1];
 
 };
