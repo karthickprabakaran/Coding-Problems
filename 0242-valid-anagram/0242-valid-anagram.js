@@ -1,5 +1,7 @@
 var isAnagram = function(s, t) {
 
+
+
   let arr = new Array(26).fill(0);
 
   for (let char of s) {
