@@ -1,19 +1,14 @@
-/**
- * @param {string[]} strs
- * @return {string[][]}
- */
 var groupAnagrams = function(strs) {
 
-    let map = new Map();
+  let map = new Map();
+  for (let str of strs) {
+    let cur = str.split('').sort().join('');
 
-    for(let str of strs){
-        let sortedStr = str.split('').sort().join('');
-
-        if(!map.has(sortedStr)) map.set(sortedStr, []);
-
-        map.get(sortedStr).push(str);
+    if (!map.has(cur)) {
+      map.set(cur, []);
     }
+    map.get(cur).push(str);
+  }
 
-    return Array.from(map.values());
-    
+  return Array.from(map.values());
 };
