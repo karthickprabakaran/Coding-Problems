@@ -2,13 +2,17 @@ var groupAnagrams = function(strs) {
 
   let map = new Map();
   for (let str of strs) {
-    let cur = str.split('').sort().join('');
+    let count = new Array(26).fill(0);
 
-    if (!map.has(cur)) {
-      map.set(cur, []);
+    for (let char of str) {
+      count[char.charCodeAt(0) - 'a'.charCodeAt(0)]++;
     }
-    map.get(cur).push(str);
-  }
+    let key = count.join('#');
 
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+    map.get(key).push(str);
+  }
   return Array.from(map.values());
 };
