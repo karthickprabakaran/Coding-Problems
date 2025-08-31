@@ -1,29 +1,36 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
 var threeSumClosest = function(nums, target) {
-    nums.sort((a, b) => a - b); // Sort the array
-    let closestSum = nums[0] + nums[1] + nums[2]; // Initialize with first possible triplet
 
-    for (let i = 0; i < nums.length - 2; i++) {
-        let left = i + 1;
-        let right = nums.length - 1;
+    nums.sort((a,b) => a- b);
 
-        while (left < right) {
-            let currentSum = nums[i] + nums[left] + nums[right];
+    let closest = nums[0] + nums[1] + nums[2];
 
-            // Update closestSum if current is closer to target
-            if (Math.abs(currentSum - target) < Math.abs(closestSum - target)) {
-                closestSum = currentSum;
-            }
+    let n = nums.length;
 
-            if (currentSum < target) {
-                left++;
-            } else if (currentSum > target) {
-                right--;
-            } else {
-                // Exact match found
-                return currentSum;
-            }
+    for(let i=0;i<n- 2;i++){
+        let left = i+1;
+        let right = n-1;
+        
+        while(left < right){
+
+        let currentSum = nums[i] + nums[left] + nums[right];
+
+        if(Math.abs(target - currentSum) < Math.abs(target - closest)){
+            closest = currentSum;
+        }
+
+        if(currentSum < target){
+            left++;
+        }else if (currentSum > target){
+            right--;
+        }else {
+            return currentSum;
+        }
         }
     }
-
-    return closestSum;
+    return closest;
 };
