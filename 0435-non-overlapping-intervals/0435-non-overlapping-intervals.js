@@ -4,9 +4,11 @@
  */
 var eraseOverlapIntervals = function(intervals) {
 
-    let cnt = 0 ;
-    intervals.sort((a,b) => a[1] - b[1]); 
-    let end = -Infinity;
+    let cnt = 0;
+
+    let end;
+
+    intervals.sort((a,b) => a[1] - b[1]);
 
     for(let [start, finish] of intervals){
         if(start < end){
