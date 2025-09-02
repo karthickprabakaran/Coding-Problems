@@ -6,14 +6,14 @@ var largestNumber = function(nums) {
 
     let strs = nums.map(String);
 
-    strs.sort((a,b) => {
+    strs.sort((a, b) => {
         return (b+a).localeCompare(a+b);
-    });
+    })
 
-    let result = strs.join("");
+    let res = strs.join("");
 
-    if(result[0] === "0") return "0";
+    if(res[0] === "0") return "0";
 
-    return result;
+    return res;
     
 };
