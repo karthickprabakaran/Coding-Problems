@@ -13,14 +13,9 @@ var reverseList = function(head) {
 
     if(head == null || head.next == null) return head;
 
-    let prev = null;
-    let current = head;
+let newHead = reverseList(head.next);
+head.next.next = head;
+head.next = null;
 
-    while(current != null){
-        let next = current.next;
-        current.next = prev;
-        prev = current;
-        current = next;
-    }
-    return prev;
+return newHead;
 };
