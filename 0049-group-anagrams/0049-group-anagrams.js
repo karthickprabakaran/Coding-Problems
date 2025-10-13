@@ -1,18 +1,21 @@
+/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */
 var groupAnagrams = function(strs) {
 
-  let map = new Map();
-  for (let str of strs) {
-    let count = new Array(26).fill(0);
+    let map = new Map();
 
-    for (let char of str) {
-      count[char.charCodeAt(0) - 'a'.charCodeAt(0)]++;
-    }
-    let key = count.join('#');
+    for(let str of strs){
+        let sorted = str.split('').sort().join('');
 
-    if (!map.has(key)) {
-      map.set(key, []);
+        if(!map.has(sorted)){
+                    map.set(sorted, []);
+        }
+            map.get(sorted).push(str);
+
     }
-    map.get(key).push(str);
-  }
-  return Array.from(map.values());
+
+    return Array.from(map.values());
+    
 };
