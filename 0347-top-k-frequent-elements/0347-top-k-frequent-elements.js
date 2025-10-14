@@ -1,25 +1,28 @@
-var topKFrequent = function(nums, k) {
-  let map = new Map();
+var topKFrequent = function (nums, k) {
 
-  // Step 1: Count frequencies
-  for (let num of nums) {
+
+let map = new Map();
+
+for(let num of nums){
     map.set(num, (map.get(num) || 0) + 1);
   }
 
-  // Step 2: Create buckets (size = nums.length + 1)
-  let buckets = Array(nums.length + 1).fill().map(() => []);
+  let freq =  Array.from(map.entries());
 
-  for (let [num, freq] of map.entries()) {
-    buckets[freq].push(num);
-  }
+  freq.sort((a,b) => {
+  return (b[1] - a[1]);
+  });
 
-  // Step 3: Gather results from the highest frequency down
   let res = [];
-  for (let i = buckets.length - 1; i >= 0 && res.length < k; i--) {
-    if (buckets[i].length > 0) {
-      res.push(...buckets[i]);
-    }
+
+  for(let i=0;i<k;i++){
+  res.push(freq[i][0]);
   }
 
-  return res.slice(0, k);
+  return res;
+
+
+
+
+
 };
