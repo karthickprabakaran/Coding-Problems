@@ -1,31 +1,27 @@
-/**
- * @param {string} s
- * @param {number} k
- * @return {number}
- */
-var characterReplacement = function(s, k) {
+var characterReplacement = function (s, k) {
+  let n = s.length;
+  let left = 0;
+  let maxf = 0; // max frequency of any char in current window
+  let maxLen = 0;
+  let hash = new Array(26).fill(0);
 
-    let freq = new Array(26).fill(0); 
-    let left = 0;
-    let maxFreq = 0;
-    let maxWindow  = 0;
+  for (let right = 0; right < n; right++) {
+    // Increment the frequency of the current character
+    let idx = s[right].charCodeAt(0) - 65;
+    hash[idx]++;
+    maxf = Math.max(maxf, hash[idx]);
 
-    for(let right = 0;right < s.length;right++){
-        freq[s.charCodeAt(right) - 65]++;
-
-        maxFreq = Math.max(maxFreq, freq[s.charCodeAt(right) - 65]);
-
-        let windowLength = right - left + 1;
-
-        if(windowLength - maxFreq > k){
-            freq[s.charCodeAt(left) - 65]--; 
-            left++;
-        }
-
-        windowLength = right - left +1;
-        maxWindow = Math.max(maxWindow, windowLength);
+    // Shrink window if more than k replacements needed
+    while (right - left + 1 - maxf > k) {
+      let leftIdx = s[left].charCodeAt(0) - 65;
+      hash[leftIdx]--;
+      left++;
     }
 
-    return maxWindow;
-    
+    // Update max length
+    maxLen = Math.max(maxLen, right - left + 1);
+  }
+
+  return maxLen;
 };
+
