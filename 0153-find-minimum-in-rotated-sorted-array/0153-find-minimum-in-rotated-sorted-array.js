@@ -1,9 +1,17 @@
 var findMin = function (nums) {
-  let min = nums[0];
+  let n = nums.length;
 
-  for (let char of nums) {
-    if (char < min) min = char;
+  let left = 0;
+  let right = n - 1;
+  while (left < right) {
+    let mid = Math.floor((left + right) / 2);
+
+    if (nums[mid] > nums[right]) {
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
   }
 
-  return min;
+  return nums[left];
 };
