@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0229-majority-element-ii) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0200-number-of-islands](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0200-number-of-islands) |
 ## Merge Sort
 |  |
 | ------- |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0200-number-of-islands) |
 ## Database
 |  |
 | ------- |
@@ -418,4 +421,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/karthickprabakaran/Coding-Problems/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
