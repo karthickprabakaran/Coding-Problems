@@ -10,27 +10,24 @@ var findOrder = function(numCourses, prerequisites) {
     for(let i=0;i<numCourses;i++){
         adjList.set(i,[]);
     }
-
     let inDegree = new Array(numCourses).fill(0);
-
+    // populatin the adj list (preq -> course)
     for(let [course, preq] of prerequisites){
         adjList.get(preq).push(course);
         inDegree[course]++;
     }
 
     let queue = [];
+    let order = [];
     for(let i=0;i<numCourses;i++){
         if(inDegree[i] === 0){
             queue.push(i);
         }
     }
 
-    let order  = [];
-
-    while(queue.length >0){
+    while(queue.length > 0){
         let cur = queue.shift();
         order.push(cur);
-
         for(let nei of adjList.get(cur)){
             inDegree[nei]--;
             if(inDegree[nei] === 0){
@@ -39,8 +36,7 @@ var findOrder = function(numCourses, prerequisites) {
         }
     }
 
-    if(order.length === numCourses) return order;
+   if (numCourses === order.length) return order;
 
-    return [];
-    
+   return [];
 };
