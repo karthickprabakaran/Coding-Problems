@@ -4,21 +4,29 @@ class Solution:
         nums.sort()
 
         result = nums[0] + nums[1] + nums[2]
+        minDifference = math.inf
 
-        i=0
-        for i in range(n-2):
-            if i>0 and (nums[i] == nums[i-1]):
-                continue
-            left = i+1
-            right = n-1
-            while(left < right):
-                total = nums[i] + nums[left] + nums[right]
-                if(abs(total - target) < abs(result - target)):
-                    result = total
-                if(total < target):
-                    left+=1
-                elif(total > target):
-                    right-=1
+        i = 0
+
+        while i < n - 2:
+            left = i + 1
+            right = n - 1
+
+            while left < right:
+                current_sum = nums[i] + nums[left] + nums[right]
+                difference = abs(current_sum - target)
+
+                if difference < minDifference:
+                    result = current_sum
+                    minDifference = difference
+
+                if current_sum < target:
+                    left += 1
+                elif current_sum > target:
+                    right -= 1
                 else:
-                    return target
+                    return current_sum
+
+            i += 1
+
         return result
