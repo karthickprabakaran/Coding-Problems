@@ -1,16 +1,12 @@
 class Solution:
     def threeSum(self, nums):
         nums.sort()
-        result = []
-
+        result = set()
         n = len(nums)
 
-        for i in range(n - 2):
+        i = 0
 
-            # Skip duplicate values for the first number
-            if i > 0 and nums[i] == nums[i - 1]:
-                continue
-
+        while i < n - 2:
             left = i + 1
             right = n - 1
 
@@ -24,18 +20,10 @@ class Solution:
                     right -= 1
 
                 else:
-                    result.append([nums[i], nums[left], nums[right]])
-
-                    # Move both pointers
+                    result.add((nums[i], nums[left], nums[right]))
                     left += 1
                     right -= 1
 
-                    # Skip duplicate values on the left
-                    while left < right and nums[left] == nums[left - 1]:
-                        left += 1
+            i += 1
 
-                    # Skip duplicate values on the right
-                    while left < right and nums[right] == nums[right + 1]:
-                        right -= 1
-
-        return result
+        return [list(triplet) for triplet in result]
